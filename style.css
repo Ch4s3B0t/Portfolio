@@ -1,0 +1,108 @@
+body {
+  background-image: url(https://images.pexels.com/photos/147503/pexels-photo-147503.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+/*Navigation*/
+.navbar {
+  display: flex;
+  width: 100%;
+  font-size: 18px;
+  background: black;
+  height: 20px;
+  opacity: 0.5;
+  position: fixed;
+}
+.art {
+  height: 70px;
+  width: 33%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.resume {
+  height: 70px;
+  width: 33%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.LinkedIn {
+  height: 70px;
+  width: 33%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.header {
+  text-align:center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: 'Kumar One', cursive;
+}
+/*Will not resize correctly?*/
+h1 {
+  font-size: 50px;
+}
+/*Midsection Tagline*/
+.middle {
+  height: 350px;
+  width: 100%;
+  background: black;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  opacity: 0.5;
+  color: white;
+  text-align: center;
+  font-size: 38px;
+  font-family: 'Kumar One', cursive;
+}
+/*Bottom of page, Contact and About*/
+.footer {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  background: black;
+}
+.contact {
+  padding-top: 50px;
+  width: 100%;
+}
+h2 {
+  margin-left: 30px;
+}
+ul {
+  padding-top: 40px;
+  list-style: none;
+}
+.about {
+  padding-top: 50px;
+  width: 600px;
+}
+p {
+  padding-top: 40px;
+  padding-left: 25px;
+}
+/*Media Queries, Tablet then Phone*/
+@media (min-width: 768px)
+  and (max-width: 1025px) {
+    h1 {
+      font-size: 38px;
+    }
+    .middle {
+      font-size: 18px;
+      height: 250px;
+    }
+}
+
+@media (max-width: 767px){
+  .middle{
+    font-size: 10px;
+    height: 200px;
+    width: 80%;
+    margin-bottom: 50px;
+  }
+}
